@@ -29,7 +29,7 @@ Painel inspirado no Kiny-painel, muito obrigado kiny.
  pkg install python2 -y
  pkg install python3 -y
  git clone https://github.com/nilosqui/Bengala-painel
- cd automatizar
+ cd Bengala-painel
  python3 main.py
 ```
 
