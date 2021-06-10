@@ -23,14 +23,14 @@ Painel inspirado no Kiny-painel, muito obrigado kiny.
 
 
 ```
-$ pkg upgrade && pkg update -y
-$ pkg install git -y
-$ pkg install python -y
-$ pkg install python2 -y
-$ pkg install python3 -y
-$ git clone https://github.com/nilosqui/Bengala-painel
-$ cd automatizar
-$ python3 main.py
+ pkg upgrade && pkg update -y
+ pkg install git -y
+ pkg install python -y
+ pkg install python2 -y
+ pkg install python3 -y
+ git clone https://github.com/nilosqui/Bengala-painel
+ cd automatizar
+ python3 main.py
 ```
 
 ```
