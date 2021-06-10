@@ -27,7 +27,7 @@
  pkg install git python -y
  git clone https://github.com/nilosqui/Bengala-painel
  cd Bengala-painel
- python main.py
+ python painel.py
 ```
 
 
