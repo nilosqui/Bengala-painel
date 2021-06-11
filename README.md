@@ -1,4 +1,4 @@
-# Bengala-painel
+#Kid Bengala-painel
 
 <p align="center" ><img alt="Kiny-Painel" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"></p>
 
