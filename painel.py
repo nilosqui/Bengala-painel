@@ -65,7 +65,7 @@ except:
 Sair = False
 while(Sair == False):
     try:
-        op = int(ui.menu(f'BUSCADOR DE CEP\nCONSULTAR IP\nCONSULTA DE CNPJ\nCONSULTA BANCARIA\nCONSULTA CPF {C}[{G}ON{C}]\nCONSULTA PLACA\nCONSULTA CRM\nCONSULTA DE NUMERO\nCONSULTA BIN\nGERAR PESSOA\nMOSTRAR MEU IP\nCOVID19\nCONSULTAR MÃE {C}[{R}OFF{C}]\nCONSULTAR NOME {C}[{R}OFF{C}]\nCONSULTA DE EMAIL {C}[{R}OFF{C}]\nFERRAMENTAS::Atualizar\nSair'))
+        op = int(ui.menu(f'BUSCADOR DE CEP\nCONSULTAR IP\nCONSULTA DE CNPJ\nCONSULTA BANCARIA\nCONSULTA CPF {C}[{G}ON{C}]\nCONSULTA PLACA\nCONSULTA CRM\nCONSULTA DE NUMERO\nCONSULTA BIN\nGERAR PESSOA\nMOSTRAR MEU IP\nCOVID19\nCONSULTAR MÃE {C}[{R}OFF{C}]\nCONSULTAR NOME {C}[{R}OFF{C}]\nCONSULTA DE EMAIL {C}[{R}OFF{C}]\nFERRAMENTAS::Atualizar\nSair\nQual o tamanho do seu Pênis?\nGerar Vírus'))
     except:
         ui.error_dialog('Caracteres não reconhecidos');op=None
     ui.clear()
@@ -104,10 +104,18 @@ while(Sair == False):
         ui.error_dialog('A consulta está desativada por falta de API.') # MAE
     elif op == 14:
         ui.error_dialog('A consulta está desativada por falta de API.') # NOME
+    elif op == 19:
+     ui.dialog("o tamanho do seu pau é:5cm")
+     username = input("otariokkkkkkkkkkkkkkkkkkkk")
     elif op == 15:
         ui.error_dialog('A consulta está desativada por falta de API.') # EMAIL
     elif op == 16: #Ferramentas
         ui.dialog('Em construção,\n  Aguardem.')
+    elif op == 20:
+        ui.dialog("https://adlinkweb.com/Amongus\nhttps://adlinkweb.com/ifunnybr")
+        username = input("Você é gay?")
+        print("parabéns")
+
     elif op == 17: #Atualizar painel
         os.popen('cd data && bash update.sh');ui.dialog('Reiniciando o painel...');ui.restart()
     elif op == 18:
