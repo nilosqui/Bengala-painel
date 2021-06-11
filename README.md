@@ -8,7 +8,7 @@
   
 <p>Painel inspirado no Kiny-painel, muito obrigado kiny.</p>
 
-
+<p> painel de consulta de dados. <p>
 
 <p align="center">•
   <a href="https://youtube.com/channel/UC1aTvkvmTVO7OJ6oixtJo8w">canal kiny</a> •
@@ -29,6 +29,7 @@
  cd Bengala-painel
  python painel.py
 ```
+Tenha um bom aproveitamento
 
 
 
